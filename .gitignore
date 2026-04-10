@@ -1,0 +1,26 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.tfstate.lock.info
+
+# Variable files that may contain secrets (uncomment if you use them)
+# *.tfvars
+# *.auto.tfvars
+
+# CLI config (may contain credentials)
+.terraformrc
+terraform.rc
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
